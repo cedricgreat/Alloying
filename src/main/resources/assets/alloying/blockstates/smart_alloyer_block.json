@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "normal": { "model": "alloying:smart_alloyer_block" }
+  }
+}

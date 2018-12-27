@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "alloying:blocks/smart_alloyer_block"
+  }
+}
