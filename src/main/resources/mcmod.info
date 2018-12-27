@@ -1,0 +1,21 @@
+[
+  {
+    "modid": "Alloying",
+    "name": "Alloying",
+    "description": "Simple block to help with alloying metals in the smeltery",
+    "version": "1.0",
+    "mcversion": "1.12.2",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "cedricgreat"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [
+    ],
+    "parent":"",
+    "dependencies": [
+    ]
+  }
+]
