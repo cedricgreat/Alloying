@@ -1,10 +1,9 @@
 package com.cedricgreat.alloying;
 
-import com.cedricgreat.alloying.configuration.ConfigurationHandler;
-import com.cedricgreat.alloying.proxy.CommonProxy;
-import org.apache.logging.log4j.Logger;
 
+import com.cedricgreat.alloying.proxy.CommonProxy;
 import com.cedricgreat.alloying.reference.Reference;
+import com.cedricgreat.alloying.utility.Utils;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -20,14 +19,10 @@ public class Alloying
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
     public static CommonProxy proxy;
 
-
-    private static Logger logger;
-
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        logger = event.getModLog();
-        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+
     }
 
     @Mod.EventHandler

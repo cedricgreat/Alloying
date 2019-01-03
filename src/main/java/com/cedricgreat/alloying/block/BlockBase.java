@@ -13,6 +13,7 @@ import net.minecraft.item.ItemBlock;
 
 public class BlockBase extends Block implements IHasModel
 {
+
     public BlockBase(String name, Material material)
     {
         super(material);
@@ -30,4 +31,5 @@ public class BlockBase extends Block implements IHasModel
     {
         Alloying.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
     }
+
 }
